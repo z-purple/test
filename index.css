@@ -1,0 +1,246 @@
+body {
+    /* font-family: "Noto Sans CJK SC", "Source Han Sans CN"; */
+    /*思源黑体7种字体粗细，在 CSS 中也可以指定：*/
+    /* font-family: "Noto Sans CJK SC Thin", "Source Han Sans CN Thin";
+    font-family: "Noto Sans CJK SC Light", "Source Han Sans CN Light"; */
+    /* font-family: "Noto Sans CJK SC DemiLight", "Source Han Sans CN DemiLight"; */
+    font-family: "Noto Sans CJK SC Medium", "Source Han Sans CN Medium";
+      /* font-family: "Noto Sans CJK SC Blod", "Source Han Sans CN Blod";
+    font-family: "Noto Sans CJK SC Black", "Source Han Sans CN Black";*/
+    overflow-x: hidden;
+}
+form>input::-webkit-input-placeholder {
+    /* WebKit browsers*/
+    color: #666566;
+}
+form>input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18*/
+    color: #666566;
+}
+form> input::-moz-placeholder {
+    /* Mozilla Firefox 19+*/
+    color: #666566;
+}
+form> input:-ms-input-placeholder {
+    /* Internet Explorer 10+*/
+    color: #666566;
+}
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+.bg{
+    background-image: 100% 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+nav{
+    height: 73px;
+    background:#3d475c;
+}
+nav li{
+    float:left;
+    display: inline-block;
+}
+nav li a{
+    display: inline-block;
+    color:#efe8e4;
+    height:73px;
+    line-height:73px;
+    padding:0 32px;
+    font-size:19px;
+}
+nav li:nth-child(8){
+    float:right;
+  
+}
+nav li:nth-child(1){
+   margin-left:-32px;
+}
+nav li .rig{
+      padding-right:0;
+}
+nav li a:hover{
+    background:#e4c99f;
+}
+.banner{
+    height:642px;
+}
+.two{
+    height: 948px;
+}
+.two .twoBottom{
+ padding-top:60px;
+}
+.two .twoBottom img{
+    margin-left:5px;
+    margin-right: 10px;
+}
+
+.two> h2{
+    font-size: 35px;
+    color:#655049;
+    text-align: center;
+    line-height:47px;
+    padding-top:67px;
+}
+.two >h3{
+    font-size: 15px;
+    color:#655049;
+    text-align: center;
+    line-height: 28px;
+}
+.two .twoBottom .twoleft .twoTop .twoSection{
+    width:473px;
+}
+.two .twoBottom .twoSection>h3{
+    font-size:28px;
+    line-height:52px;
+}
+.two .twoBottom .twoSection>h4{
+    font-size:18px;
+    line-height:40px;
+}
+.two .twoBottom .twoSection>h5{
+    font-size:18px;
+    line-height:32px;
+    text-indent: 2em;
+}
+.two .twoBottom .twoleft{
+     width:870px;
+}
+
+.two .twoBottom .tworight{
+    width:330px;
+    height:522px;
+    background-color:#1b273f;
+}
+.two .twoBottom .tworight>h2{
+    color:#fff;
+    font-size:36px;
+    line-height: 46px;
+    padding-top:27px;
+    text-align: center;
+}
+.two .twoBottom .tworight>h3{
+    font-size: 24px;
+    color:#fff;
+    line-height:31px;
+    text-align:center; 
+}
+.twoForm{
+    padding-top: 41px;
+}
+.two .twoBottom .tworight .twoForm input{
+    display:block;
+    width: 287px;
+    height:50px;
+    line-height: 50px;
+    margin: 0 auto 9px;
+    text-indent: 21px;
+    font-size: 20px;
+    
+}
+
+.twoForm .comitBtn{
+    display: block;
+    width:287px;
+    height:66px;
+    line-height: 66px;
+    color:#fff;
+    background-color: #e4931c;
+    font-size: 30px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.third{
+    height:941px;
+}
+.third>h2{
+    font-size: 35px;
+    color:#fff;
+    text-align: center;
+    line-height: 45px;
+    padding-top:64px;
+}
+.third>h3{
+    font-size: 15px;
+    color:#fff;
+    text-align: center;
+    line-height: 29px;
+}
+
+.third li{
+    float: left;
+    width:191px;
+    height:469px;
+    background-color: #d2d2d2;
+    position: relative;
+    margin-left: 9px;
+    overflow: hidden;
+}
+.third li>h3{
+    font-size: 24px;
+    text-align: center;
+    color:#2a2c2d;
+    line-height: 37px;
+    margin-top: 87px;
+}
+.third li>h4{
+    font-size: 16px;
+    color:#2a2c2d;
+    line-height: 30px;
+    text-align: center;
+}
+.third li:nth-last-child(1){
+    float: right;
+    margin: 0;
+}
+.third li:nth-child(2n){
+    margin-top:92px;
+}
+.third li:nth-child(2n+1){
+    margin-top:163px;
+}
+.third li:hover{
+    transform: translateY(-20px);
+    transition: 200ms ;
+    color: #fff ;
+    background: #2a2c2d;
+}
+.third li:hover h3 ,.third li:hover h4{
+    transform: translateY(-20px);
+    transition: 200ms ;
+    color: #fff ;
+    background: #2a2c2d;
+}
+.thirdMain {
+    height: 710px;
+    overflow: hidden;
+}
+.thirdMain img{
+    position: absolute;
+    top: 0;
+}
+.third  form{
+    display: block;
+}
+.third  form input{
+    width:400px;
+    height: 50px;
+    font-size: 20px;
+    text-indent:21px;
+    margin-left: 41px; 
+    outline:none;
+    border:0;
+}
+.third  form input:nth-child(2){
+    margin-left: 50px;
+}
+.third  form>.comitBtn{
+    display: inline-block;
+    width:239px;
+    height:45px;
+    vertical-align: middle;
+    margin-left: 40px;
+}
